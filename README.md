@@ -1,8 +1,8 @@
 # 🏦 Nigeria Digital Lending - Credit Risk Scoring (End-to-End)
 
-> Predict the probability that a Nigerian digital-loan applicant will default, choose the
-> **profit-maximising approval cut-off**, audit the model for **fairness**, and serve it
-> through a **FastAPI** microservice (Docker-ready).
+Predict the probability that a Nigerian digital-loan applicant will default, choose the
+**profit-maximising approval cut-off**, audit the model for **fairness**, and serve it
+through a **FastAPI** microservice (Docker-ready).
 
 **Domain:** Finance / FinTech  **Skills shown:** EDA · descriptive & inferential statistics ·
 feature engineering · ML · calibration · out-of-time validation · explainability · fairness ·
@@ -99,8 +99,4 @@ additive. **Picking the simpler, more explainable model is the right call** in r
 lending.
 
 ## 7. Limitations & next steps
-* Synthetic data → replace with real portfolio; expect lower AUC and more drift.
-* The inflation→default relationship rests on 5 annual points (inflation is constant within a
-  year, so it is confounded with time). Treat it as illustrative; with real data use monthly macro data.
-* Add reject inference (declined applicants have no outcome), PSI monitoring for drift,
-  MLflow experiment tracking, and a scheduled retraining job (Airflow / GitHub Actions).
+* Synthetic data
