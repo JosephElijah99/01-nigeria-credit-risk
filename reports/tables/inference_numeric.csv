@@ -1,0 +1,9 @@
+feature,median_default,median_good,u_stat,p_value,rank_biserial
+bureau_score,564.5,606.0,8471079.0,0.0,0.34096
+loan_to_income,0.8823,0.73151,28151572.5,0.0,-0.17082
+monthly_income_ngn,185000.0,207000.0,21475107.5,0.0,0.10686
+debt_to_income,0.00855,0.0,26147167.5,0.0,-0.08745
+monthly_interest_rate,0.08,0.08,27455242.0,0.0,-0.07905
+mobile_money_txn_30d,26.0,27.0,24129444.5,1e-05,0.05166
+age,32.0,32.0,24224662.0,0.00015,0.04346
+wallet_to_income,0.17938,0.17296,24741578.0,0.01246,-0.029

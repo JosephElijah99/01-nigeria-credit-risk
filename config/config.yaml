@@ -1,0 +1,26 @@
+seed: 42
+paths:
+  raw: data/raw/loans_raw.csv
+  processed: data/processed/loans_clean.csv
+  external: data/external
+  model: models/credit_model.joblib
+  metadata: models/model_metadata.json
+  figures: reports/figures
+data:
+  n_rows: 20000
+  start_date: "2021-01-01"
+  end_date: "2025-06-30"
+macro:
+  country: NGA
+  start_year: 2020
+  end_year: 2025
+  indicators:
+    inflation_rate: FP.CPI.TOTL.ZG
+    gdp_growth: NY.GDP.MKTP.KD.ZG
+    unemployment_rate: SL.UEM.TOTL.ZS
+split:
+  test_start: "2024-07-01"     # out-of-time test set
+economics:
+  lgd: 0.85                    # loss given default (share of principal lost)
+model:
+  target: default

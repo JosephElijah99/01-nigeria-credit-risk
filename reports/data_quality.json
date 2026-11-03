@@ -1,0 +1,9 @@
+{
+  "rows_in": 20060,
+  "duplicates_removed": 60,
+  "unmapped_states": 0,
+  "invalid_age_set_to_nan": 42,
+  "missing_income": 574,
+  "missing_bureau_score": 5491,
+  "rows_out": 20000
+}

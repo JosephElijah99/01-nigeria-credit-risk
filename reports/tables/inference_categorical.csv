@@ -1,0 +1,9 @@
+feature,chi2,p_value,cramers_v,significant_5pct,p_adj_bonferroni
+employment_type,177.33239,0.0,0.0931,True,0.0
+tenor_months,32.68672,0.0,0.03787,True,1e-05
+device_type,26.04316,0.0,0.03467,True,2e-05
+region,8.31336,0.13979,0.01287,False,1.0
+loan_purpose,6.8605,0.14345,0.01196,False,1.0
+gender,2.60849,0.10629,0.00897,False,0.85034
+education,1.30318,0.72838,0.0,False,1.0
+channel,1.01976,0.79647,0.0,False,1.0

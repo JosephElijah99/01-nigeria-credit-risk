@@ -1,0 +1,61 @@
+{
+  "model_version": "1.0.0",
+  "algorithm": "logistic_regression",
+  "trained_at": "2026-11-02T15:26:26.366940+00:00",
+  "sklearn_version": "1.8.0",
+  "features": [
+    "age",
+    "monthly_income_ngn",
+    "loan_amount_ngn",
+    "tenor_months",
+    "monthly_interest_rate",
+    "prior_loans",
+    "prior_defaults",
+    "mobile_money_txn_30d",
+    "avg_wallet_balance_ngn",
+    "salary_account",
+    "existing_debt_ngn",
+    "bureau_score",
+    "inflation_rate",
+    "gdp_growth",
+    "unemployment_rate",
+    "loan_to_income",
+    "debt_to_income",
+    "monthly_repayment_ratio",
+    "default_history_rate",
+    "bureau_missing",
+    "wallet_to_income",
+    "gender",
+    "education",
+    "employment_type",
+    "loan_purpose",
+    "channel",
+    "device_type",
+    "region"
+  ],
+  "decision_threshold": 0.27,
+  "metrics_validation": {
+    "model": "logistic_regression",
+    "roc_auc": 0.7136,
+    "gini": 0.4272,
+    "ks": 0.332,
+    "pr_auc": 0.358,
+    "brier": 0.1275,
+    "base_rate": 0.1694
+  },
+  "metrics_test_out_of_time": {
+    "roc_auc": 0.7154,
+    "gini": 0.4307,
+    "ks": 0.3248,
+    "pr_auc": 0.3521,
+    "brier": 0.1291,
+    "base_rate": 0.1725
+  },
+  "test_profit_at_threshold_ngn": 80617850.0,
+  "test_approval_rate": 0.8865280289330922,
+  "train_period": [
+    "2021-01-01",
+    "2023-10-23"
+  ],
+  "n_train": 12460
+}
